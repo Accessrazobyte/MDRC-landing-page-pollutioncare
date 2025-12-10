@@ -20,6 +20,57 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .klk{
+      height: 900px;
+    }
+    .klk1{
+      width: 350px;
+    }
+    .klk3{
+      margin-top: -115px;
+    }
+    @media(min-width:1600px){
+      .klk3{
+        margin-top: 0px;
+      }
+      .klk{
+        height: 107vh;
+      }
+    }
+    @media(max-width:1450px){
+      .klk{
+        height: 800px;
+      }
+      .klk3{
+        margin-top: -50px;
+      }
+    }
+    @media(max-width:1290px){
+      .klk{
+        height: 700px;
+      }
+      .klk3{
+        margin-top: -50px;
+      }
+    }
+    @media(max-width:1120px){
+      .klk{
+        height: 600px;
+      }
+      .klk3{
+        margin-top: 0px;
+      }
+    }
+    @media(max-width:1024px){
+    
+    }
+    @media(max-width:400px){
+      .klk1{
+        width: 90vw;
+      }
+    }
+  </style>
 </head>
 <body >
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M26TV87"
@@ -31,13 +82,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<div class="block md:hidden text-center relative">
+<div class="block lg:hidden text-center relative">
     <img 
       src="./images/mobileimg/Pollutionbannermobile.png" 
       alt="Mobile Graphic" 
       class="w-full mx-auto"
     />
-    <div class="relative w-full max-w-sm mx-auto px-8 -mt-10">
+    <div class="relative w-full max-w-sm mx-auto px-8">
       <form
   id="mobileForm"
   class="bg-[#094B7C] rounded-lg shadow-lg p-6 flex flex-col gap-2 text-white relative z-10"
@@ -47,7 +98,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <img
     src="images/mobileimg/Group 4001.png"
     alt="Badge"
-    class="w-[350px] sm:w-[450px] md:w-[600px] lg:w-[750px] xl:w-[850px] max-w-none h-auto drop-shadow-2xl"
+    class=" klk1 max-w-none h-auto drop-shadow-2xl"
   />
 </div>
 
@@ -140,8 +191,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- ✅ DESKTOP SECTION -->
  <section 
-  class="relative hidden md:block w-full bg-cover bg-center bg-no-repeat z-10
-         h-[400px] sm:h-[500px] md:h-[600px] lg:h-[800px] xl:h-[1000px]
+  class="klk relative hidden lg:block w-full bg-cover bg-center bg-no-repeat z-10
+         
          bg-[center_top] md:bg-center lg:bg-[center_20%]"
   style="background-image: url('/images/mobileimg/Pollutionbanner.png');">
 <header class="px-4 py-2 flex justify-between items-center hidden md:flex">
@@ -225,9 +276,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
     <!-- ✅ Right Form Section -->
-    <div class="relative w-full max-w-sm mx-auto  mt-[300px]" >
+    <div class="relative w-full max-w-sm mx-auto" >
   <!-- ✅ Badge Image placed outside form -->
-  <div class="flex justify-center pt-[20px] mb-[-140px] z-20 relative" >
+  <div class="flex justify-center pt-[20px] mb-[-140px] z-20 relative mt-[50px]" >
     <img
       src="images/mobileimg/Group 4001.png"
       alt="Badge"
@@ -329,7 +380,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <section 
-  class="bg-[#E8F5FB] py-4 relative overflow-hidden mt-0 md:-mt-[128px]  " 
+  class="bg-[#E8F5FB] py-4 relative overflow-hidden klk3" 
   style="font-family: 'Roboto', sans-serif;"
 >  <div class="max-w-6xl mx-auto">
     <!-- ✅ Desktop View -->
